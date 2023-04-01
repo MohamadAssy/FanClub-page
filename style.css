@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(164, 80, 12);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 10px 20px;
+    background-color: rgb(35, 111, 243);
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    margin-right: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav a:hover{
+    color: crimson;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://www.sliceofculture.com/wp-content/uploads/2021/10/a2d134735abb0b1532ee129fb88d9c5a.jpg);
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    color: rgb(253, 253, 230);
+}
+.welcome h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+.welcome button{
+    padding: 10px 20px;
+    background-color: rgb(35, 111, 243);
+    font-size: 15px;
+    border: none;
+    border-radius: 7px;
+    color: azure;
+}
+.about{
+    text-align: center;
+    padding: 40px 20px;
+}
+.about h2{
+font-size: 25px;
+margin-bottom: 20px;
+}
+.about p{
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-size: 20px;
+    color:rgb(253, 253, 230);
+}
+.gallery{
+    text-align: center;
+    padding: 50px 20px;
+}
+.gallery h2{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.imagesContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.imagesContainer img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.footer{
+    text-align: center;
+    padding: 15px 15px;
+    background-color: antiquewhite;
+}
+.footer p{
+    font-size: 14px;
+    color: #999;
+}
